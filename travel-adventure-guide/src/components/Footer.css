@@ -1,0 +1,31 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+ul,a{
+    text-decoration: none;
+    color: white;
+}
+h3{
+    font-size: large;
+}
+form{
+    display: flex;
+    gap:5px;
+}
+input .input{
+    padding: 2%;
+}
+.btn{
+    background-color: red;
+    padding: 1%;
+}

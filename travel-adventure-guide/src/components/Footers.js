@@ -8,13 +8,14 @@ export const Footer = () => {
                 {/* Quick Link */}
                 <div>
                     <h3>Quick Link</h3>
-                    <ul>
+                    <ul className="space-y-2">
                         <a href="#Home">Home</a><br />
                         <a href="#Destination">Destinations</a><br />
                         <a href="#Guides">Tip & Guide</a><br />
                         <a href="#Gear">Gear</a><br />
                         <a href="#Blog">Blog</a><br />
-                        <a href="#contact">ContactUs</a>
+                        <a href="#contact">Contact Us</a><br/>
+                        <a href="#about">About Us</a>
                     </ul>
                 </div>
                 {/* Contact Information */}

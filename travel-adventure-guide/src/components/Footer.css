@@ -1,7 +1,7 @@
 .footer {
     background-color: #333;
     color: white;
-    padding: 20px 0;
+    padding: 1% 0;
     text-align: center;
 }
 
@@ -9,23 +9,38 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 1%;
 }
-ul,a{
+.space-y-2{
+    align-items: center;
+    padding: 2%;
+}
+
+ul,
+a {
     text-decoration: none;
     color: white;
 }
-h3{
+
+h3 {
     font-size: large;
 }
-form{
+
+form {
     display: flex;
-    gap:5px;
+    gap: 5px;
 }
-input .input{
+
+input .input {
     padding: 2%;
 }
-.btn{
+
+.btn {
     background-color: red;
+    border: 1px solid red;
     padding: 1%;
+}
+
+.text-sm {
+    font-size: small;
 }

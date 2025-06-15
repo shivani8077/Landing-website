@@ -1,0 +1,91 @@
+.signup-container {
+    padding-top: 2%;
+    background-color: antiquewhite;
+    background: linear-gradient(to bottom, #87CEEB, #ffffff);
+    /* background-image: url('F:\0a projects\Landing-website\travel-adventure-guide\src\assets\Shinkula Pass, Himachal Pradesh.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1.8%;
+}
+
+.heading {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.signup {
+    width: 28%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    margin: 0 auto;
+    /*Centers the card*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #78c4e2;
+    /* background-color: rgb(181, 219, 224); */
+}
+
+.form-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: large;
+}
+
+input[type=textarea] {
+    padding: 3%;
+    border-radius: 8px;
+}
+
+input[type=password] {
+    padding: 3%;
+    border-radius: 8px;
+}
+
+input[type=email] {
+    padding: 3%;
+    border-radius: 8px;
+}
+
+input[type=number] {
+    padding: 3%;
+    border-radius: 8px;
+}
+
+.fpwd {
+    color: rgb(80, 80, 250);
+    text-decoration: none;
+    float: right;
+    font-weight: 600;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-btn {
+    width: 40%;
+    background-color: #4798f0;
+    color: white;
+    padding: 3%;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 2rem;
+    border-color: #4798f0;
+}

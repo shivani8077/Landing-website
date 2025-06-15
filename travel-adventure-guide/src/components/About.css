@@ -1,0 +1,55 @@
+/* .about-body{
+    padding: 0%;
+    margin: auto;
+} */
+.about-section {
+    background: linear-gradient(to bottom, #87CEEB, #ffffff);
+}
+
+.ab-h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.ab-des {
+    padding-left: 8%;
+    padding-right: 15%;
+}
+
+.para-int {
+    font-size: 1.3em;
+    font-style: normal;
+    width: 95%;
+    text-align: start;
+}
+
+.mst {
+    font-size: 2em;
+    font-style: normal;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    position: relative;
+    color: darkred;
+    font-weight: bold;
+}
+
+.ab-logo {
+    float: right;
+    width: 30%;
+}
+.wwo-cta{
+    display:flex;
+    gap:20rem;
+    
+}
+.wwo{
+    font-size: 1.3em;
+}
+ul.a{
+    list-style-type:square;
+    color:black;
+}
+.Cta{
+    font-size: 1.5em;
+}

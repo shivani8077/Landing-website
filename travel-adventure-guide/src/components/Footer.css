@@ -23,22 +23,26 @@ a {
 }
 
 h3 {
-    font-size: large;
+    font-size: medium;
 }
 
 form {
     display: flex;
-    gap: 5px;
+    gap: 6px;
 }
 
 input .input {
-    padding: 2%;
+    padding: 3%;
 }
 
 .btn {
     background-color: red;
     border: 1px solid red;
-    padding: 1%;
+    border-radius: 6px;
+    color:white;
+    font-weight: bold;
+    font-size: medium;
+    padding: 2%;
 }
 
 .text-sm {

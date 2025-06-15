@@ -1,20 +1,27 @@
-.fixed{
-    line-height: 1;
-}
-.logo{
+img.logo{
     width: 100px;
-    height: 100px;
+    height: auto;
     float:left;
+    position: static;
   }
+ 
 .Header{
     text-align: center;
-    /* line-height: 10px; */
+    font-size: larger;
+    line-height: 10px;
+    position: relative;
+}
+.web-name{
+    text-align: center;
+    position: relative;
 }
 nav{
     display:flex;
     gap:5%;
-    justify-content: center;
+    justify-content:space-around;
+    flex-wrap:wrap;
     padding: 1%;
+    /* position: relative; */
 }
 nav a{
     font-weight: bolder;
@@ -26,16 +33,19 @@ nav a{
 nav a:hover{
     color:rgb(112, 78, 78);
 }
-button{
+.button{
     background-color: #007bff;
     border:1px solid #007bff;
     color:white;
     border-radius: 5px;
     font-weight: bold;
     font-size: medium;
-    padding: 0.5%;
+    padding: 0.8%;
 }
-button:hover{
-    background-color: rgb(53, 236, 53);
+.button:hover{
+    background-color: #0056b3;
+}
+h1.font-bold{
+    font-size:2.5rem;
 }
 

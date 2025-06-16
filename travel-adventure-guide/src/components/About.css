@@ -1,14 +1,30 @@
-/* .about-body{
+.ab-body {
     padding: 0%;
     margin: auto;
-} */
-.about-section {
+}
+.ab-section {
     background: linear-gradient(to bottom, #87CEEB, #ffffff);
 }
+.back {
+    /* font-weight: bolder; */
+    color: black;
+    width: 5%;
+    padding: 1%;
+    float: inline-start;
+    border-radius: 10px;
+}
 
-.ab-h1 {
+.back a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+h1{
+    font-size: 3rem;
     text-align: center;
-    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .ab-des {
@@ -19,8 +35,10 @@
 .para-int {
     font-size: 1.3em;
     font-style: normal;
-    width: 95%;
+    width: 100%;
     text-align: start;
+    font-weight:normal;
+    
 }
 
 .mst {
@@ -32,24 +50,44 @@
     position: relative;
     color: darkred;
     font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .ab-logo {
     float: right;
     width: 30%;
 }
-.wwo-cta{
-    display:flex;
-    gap:20rem;
-    
+
+.wwo-cta {
+    display: flex;
+    gap:10%;
 }
-.wwo{
+
+
+.wwo {
     font-size: 1.3em;
 }
-ul.a{
-    list-style-type:square;
-    color:black;
+
+ul.a {
+    list-style-type: square;
+    color: black;
 }
-.Cta{
+
+.btn-ab-section {
+    display: flex;
+    gap: 2rem;
+}
+
+.Cta {
     font-size: 1.5em;
+}
+
+.mb-2-ab {
+    font-size: 1em;
+}
+
+.teamdetail {
+    padding-top: 4em;
+
 }

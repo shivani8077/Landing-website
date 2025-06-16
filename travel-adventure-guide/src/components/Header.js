@@ -19,7 +19,7 @@ export const Header = () => {
                     <a href='/Guides'>Tip & Guides</a>
                     <a href='/Blog'>Blog</a>
                     <a href='/About'>About</a>
-                    <a href='/Contact'>ContactUs</a>
+                    <a href='/ContactUs'>ContactUs</a>
                     {/* Login/Signup */}
                     <a href='/login' className='button'>Login</a>
                     <a href='/signup' className='button'>SignUp</a>

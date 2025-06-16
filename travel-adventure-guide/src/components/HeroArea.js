@@ -11,6 +11,7 @@ export const HeroArea = () => {
             <Header />
             {/* First Section */}
             {/* Background Image */}
+            <br/>
             <section className="bg-img slideshow">
                 <div className="absolute inset-0 bg-black bg-opacity-50">
                     {/* Content */}

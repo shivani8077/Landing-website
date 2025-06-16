@@ -14,8 +14,9 @@ img .dest-header {
     position: static;
 }
 
-.h1 {
+h2 .title{
     font-size: 3em;
+    text-align: center;
 }
 
 .bubble-container {

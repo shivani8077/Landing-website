@@ -7,6 +7,7 @@ export const DestinationPage = () => {
     return (
         <div className="dest-body">
             <Header />
+            <br />
             <div className="bubble-container">
                 {[...Array(20)].map((_, i) => (
                     <div key={i} className="bubble"></div>

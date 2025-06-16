@@ -16,8 +16,8 @@ export const Header = () => {
                 <nav className='hidden md:flex'>
                     <a href='/'>Home</a>
                     <a href='/Destination'>Destinations</a>
-                    <a href='/Guides'>Tip & Guides</a>
-                    <a href='/Blog'>Blog</a>
+                    {/* <a href='/Guides'>Tip & Guides</a> */}
+                    {/* <a href='/Blog'>Blog</a> */}
                     <a href='/About'>About</a>
                     <a href='/ContactUs'>ContactUs</a>
                     {/* Login/Signup */}
@@ -43,3 +43,4 @@ export const Header = () => {
         </div>
     );
 }
+

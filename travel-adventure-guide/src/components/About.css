@@ -4,6 +4,8 @@
 }
 .ab-section {
     background: linear-gradient(to bottom, #87CEEB, #ffffff);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .back {
     /* font-weight: bolder; */

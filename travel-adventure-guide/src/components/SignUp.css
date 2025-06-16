@@ -89,3 +89,7 @@ input[type=number] {
     border-radius: 2rem;
     border-color: #4798f0;
 }
+.signup-btn:hover{
+    color:black;
+    background-color: #0571e6;
+}

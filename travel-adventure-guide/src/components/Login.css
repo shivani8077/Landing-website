@@ -66,9 +66,12 @@ input[type=number]{
 }
 .fpwd{
     color:rgb(80, 80, 250);
-    text-decoration: none;
+    /* text-decoration: none; */
     float:right;
     font-weight: 600;
+}
+.fpwd:hover{
+    color:black;
 }
 .btn-center{
     display:flex;
@@ -83,4 +86,8 @@ input[type=number]{
     font-size: larger;
     border-radius: 2rem;
     border-color:#4798f0 ;
+}
+.login-btn:hover{
+    color:black;
+    background-color: #0574eb;
 }

@@ -5,7 +5,7 @@ export const LoginPage = () => {
     return (
         <div className="login-container">
             <div className="LHmain">                
-            <h1>Welcome to Website</h1>
+            <h1>Welcome to Travel & Adventure</h1>
             </div>
             <div className="login">
                 <form className="form-card">

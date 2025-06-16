@@ -1,5 +1,9 @@
 .con-us {
     background: linear-gradient(to bottom, #87CEEB, #ffffff);
+        background-image: url("F:\0a projects\Landing-website\travel-adventure-guide\public\assets\bg 2.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color:white;
 }
 
 .back {
@@ -16,21 +20,31 @@
     text-decoration: none;
     font-weight: bold;
 }
+.ctitle{
+    text-align: center;
+    font-size: 3em;
+}
 
 .cu-int {
     text-align: center;
     font-size: x-large;
     padding-inline-start: 3%;
-    padding-inline-end: 3%;
+    padding-inline-end: 7%;
+}
+.c-main{
+    /* columns: 2; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .con-form{
-    display:flex;
+    /* display:flex; */
     text-align: left;
-    padding-left: 4%;
+    padding-left: 7%;
 }
 
 .form-card {
-    width: 35%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -43,7 +57,7 @@ h3 {
 
 label {
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 1%;
     font-size: large;
 }
 
@@ -58,6 +72,20 @@ input[type=email] {
     border-radius: 8px;
 }
 
-.send{
-    text-align: left;
+.btn-send {
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 6px;
+    color:white;
+    font-weight: bold;
+    font-size: medium;
+    padding: 2%;
+}
+
+.text-sm {
+    font-size: small;
+}
+.contact-details{
+    text-align: center;
+    padding-block: 3em;
 }

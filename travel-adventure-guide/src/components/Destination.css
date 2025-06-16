@@ -14,104 +14,21 @@ img .dest-header {
     position: static;
 }
 
-h2 .title{
+h2 .title {
     font-size: 3em;
     text-align: center;
-}
-
-.bubble-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    z-index: -1;
-    /* Keeps it in the background */
-    /* background: linear-gradient(to bottom, #87CEEB, #ffffff); */
-    /* Soft sky-like gradient */
-}
-
-.bubble {
-    position: absolute;
-    bottom: -150px;
-    width: 40px;
-    height: 40px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-    animation: rise 10s infinite ease-in;
-    opacity: 0.7;
-}
-
-.bubble::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(233, 174, 174, 0.8) 0%, rgba(230, 35, 35, 0.1) 70%);
-}
-
-@keyframes rise {
-    0% {
-        transform: translateY(0) scale(1);
-        opacity: 0.7;
-    }
-
-    50% {
-        opacity: 1;
-    }
-
-    100% {
-        transform: translateY(-1000px) scale(1.5);
-        opacity: 0;
-    }
-}
-
-/* Randomize bubble sizes and positions */
-.bubble:nth-child(odd) {
-    width: 30px;
-    height: 30px;
-    left: 10%;
-    animation-duration: 8s;
-}
-
-.bubble:nth-child(even) {
-    width: 50px;
-    height: 50px;
-    left: 70%;
-    animation-duration: 12s;
-}
-
-.bubble:nth-child(3n) {
-    width: 20px;
-    height: 20px;
-    left: 40%;
-    animation-duration: 9s;
-}
-
-.bubble:nth-child(4n) {
-    width: 60px;
-    height: 60px;
-    left: 85%;
-    animation-duration: 14s;
-}
-
-.bubble:nth-child(5n) {
-    width: 35px;
-    height: 35px;
-    left: 25%;
-    animation-duration: 11s;
 }
 
 .section-title {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
+    font-size: 2em;
     font-style: oblique;
     background-image: url("F:\0a projects\Landing-website\travel-adventure-guide\src\assets\mountain.png");
     /* width:100%; */
     background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     color: white;
     padding-bottom: 3%;
     padding-top: 3%;
@@ -133,7 +50,7 @@ h2 .title{
 }
 
 p.intro {
-    color: thistle;
+    color: rgb(250, 193, 7);
     font-style: normal;
     padding-left: 6%;
     padding-right: 6%;
@@ -147,7 +64,7 @@ p.intro {
     align-items: center;
     flex-direction: column;
     padding: 1%;
-    background: linear-gradient(to bottom, #87CEEB, #ffffff);
+    /* background: linear-gradient(to bottom, #87CEEB, #ffffff); */
 }
 
 .inner-card {
@@ -157,8 +74,55 @@ p.intro {
     align-items: center; */
     overflow: hidden;
     /* flex-direction: column; */
-    padding: 20px;
-    background-color: #cce9f5;
+    padding: 1%;
+    background-color: #d8f5eb;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+    text-align: center;
 }
+
+.exp-cate {
+    font-size: 1.5em;
+    color:black;
+}
+
+.categorycard {
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    border-radius: 10px;
+    justify-content: space-around;
+    columns: 4;
+}
+
+.Mountaintrek {
+    background-image: url("F:\0a projects\Landing-website\travel-adventure-guide\src\assets\MountainTrek.jfif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.Beach {
+    background-image: url("F:\0a projects\Landing-website\travel-adventure-guide\src\assets\beacheisland.jfif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.City {
+    background-image: url("F:\0a projects\Landing-website\travel-adventure-guide\src\assets\cityescape.jfif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.N-W {
+    background-image: url("F:\0a projects\Landing-website\travel-adventure-guide\src\assets\naturewildlife.jfif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.h3 {
+    font-size: 1em;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding:4%;
+}
+

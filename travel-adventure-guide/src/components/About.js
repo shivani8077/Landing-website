@@ -13,6 +13,7 @@ export const AboutPage = () => {
                 <div className="back">
                     <a href="/">Back</a>
                 </div>
+                <br/>
                 <h1 className="ab-h1">About Travel & adventure </h1>
                 {/* About travel & adventure detail */}
                 <div className="ab-des">
